@@ -49,6 +49,13 @@ const App = () => {
       id: data.length + 1,
     };
     setData([...data, newUser]);
+  
+   
+    setName('');
+    setUsername('');
+    setEmail('');
+    setPhone('');
+  
     setShowForm(false);
   };
 
